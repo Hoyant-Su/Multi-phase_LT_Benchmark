@@ -10,3 +10,14 @@ cd Multi_phase_liver_tumor_benchmark
 conda env create -f environment.yml
 conda activate LT_benchmark
 
+## Data Preparation
+
+
+## Implementation
+We follow existing literature on liver tumor diagnosis to implement architectures that have proven effective for differential diagnosis of liver tumors. Follow the instruction bellow to run the implementation codes.
+### Training
+```bash
+# Machine Learning Baseline
+python /radiomics_extract_classification/train_random_forest_K_fold.py
+# Deep Learning Baseline
+bash /dl_classification/do_train_liver_parallel.sh
