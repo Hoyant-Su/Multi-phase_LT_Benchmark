@@ -29,7 +29,6 @@ Data/
         ├── ...
       ├── .../
     ├── .../
-```
     
 Label/
   └── exp/
@@ -37,6 +36,7 @@ Label/
       ├── fold_1_xxx.csv 
       ├── fold_2_xxx.csv 
       └── ... 
+```
 
 All images, along with radiomics feature files and label files with `.csv` and `.txt` suffixes, can be accessed at:  **[Dataset Repository]()**
 
