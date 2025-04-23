@@ -12,7 +12,8 @@ conda activate LT_benchmark
 ```
 
 ## Data Preparation
-
+Prepare the data in the following structure:
+Data/ ├── mask/ # Tumor mask files ├── volume/ # Registered CT volumes Label/ └── exp/ └── <exp_name>/ # Experiment name └── <exp_date>/ # Experiment date ├── fold_0_xxx.csv ├── fold_1_xxx.csv └── ... # Additional folds
 
 ## Implementation
 We follow existing literature on liver tumor diagnosis to implement model architectures that have proven effective for differential diagnosis of liver tumors. Follow the instruction bellow to run the implementation codes.
