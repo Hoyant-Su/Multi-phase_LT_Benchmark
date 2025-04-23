@@ -15,15 +15,28 @@ conda activate LT_benchmark
 Prepare the data in the following structure:
 
 Data/
-├── mask/ # Contains tumor mask files (e.g., NIfTI or DICOM format)
-├── volume/ # Contains registered CT volume files (aligned/processed volumes)
+  └── mask/
+    ├── tumor_type/
+      ├── case1/
+        ├── mask_pvp.nii.gz
+      ├── .../
+    ├── .../
+  └── volume/
+    ├── tumor_type/
+      ├── case1/
+        ├── phase1.nii.gz
+        ├── phase2.nii.gz
+        ├── ...
+      ├── .../
+    ├── .../
 
+    
 Label/
-└── exp/
-└── <exp_name>/<exp_date>/ # Experiment directory with name and date
-├── fold_1_xxx.csv 
-├── fold_2_xxx.csv 
-└── ... 
+  └── exp/
+    └── <exp_name>/<exp_date>/ # Experiment directory with name and date
+      ├── fold_1_xxx.csv 
+      ├── fold_2_xxx.csv 
+      └── ... 
 
 All images, along with radiomics feature files and label files with `.csv` and `.txt` suffixes, can be accessed at:  **[Dataset Repository]()**
 
