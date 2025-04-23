@@ -38,7 +38,7 @@ Label/
       └── ... 
 ```
 
-The dataset, along with radiomics feature files and label files with `.csv` and `.txt` suffixes, can be accessed at 👉 **[Dataset Repository]()**
+The dataset, along with feature and label files with `.csv` and `.txt` suffixes, can be accessed at 👉 **[Dataset Repository]()**
 
 
 ## Implementation
