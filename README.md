@@ -13,7 +13,7 @@ conda activate LT_benchmark
 
 ## Data Preparation
 Prepare the data in the following structure:
-
+```bash
 Data/
   └── mask/
     ├── tumor_type/
@@ -29,7 +29,7 @@ Data/
         ├── ...
       ├── .../
     ├── .../
-
+```
     
 Label/
   └── exp/
