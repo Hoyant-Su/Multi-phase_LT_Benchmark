@@ -1,4 +1,4 @@
-# Multi-phase_LT_Benchmark (MCT-LTDiag)
+# MCT-LTDiag
 📝 A code repository developed for benchmark construction on differential diagnosis of liver tumors.
 
 ## Environment Setup
@@ -60,9 +60,7 @@ Comprehensive flowchart can be referred:
 ![image](https://github.com/Hoyant-Su/Multi-phase_LT_Benchmark/blob/main/flowchart_v0411.png)
 
 
-
-
-## Implementation
+## Benchmark and Implementation
 We follow existing literature on liver tumor diagnosis to implement model architectures that have proven effective for differential diagnosis of liver tumors. Follow the instruction bellow to run the implementation codes.
 ### Training & Validation
 ```bash
