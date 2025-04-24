@@ -1,4 +1,4 @@
-# Multi-phase_LT_Benchmark
+# Multi-phase_LT_Benchmark (MCT-LTDiag)
 📝 A code repository developed for benchmark construction on differential diagnosis of liver tumors.
 
 ## Environment Setup
@@ -39,6 +39,27 @@ Label/
 ```
 
 The dataset, along with feature and label files with `.csv` and `.txt` suffixes, can be accessed at 👉 **[Dataset Repository]()**
+
+## Data Preprocessing Pipeline
+We present a standardized data preprocessing workflow with executable scripts, comprising two core components:
+
+---
+### 📦 Multi-phase Registration Protocol
+```text
+ Input: NC, AP, DP phase scans  
+ Process: Multiphase registration using ITKElastix (v0.20.0)
+             - Hierarchical B-spline deformation
+ Output: PVP-phase aligned volumes
+```
+
+### 📦 AI-driven Segmentation Workflow
+processing steps: Model mask generation -> Expert refinement -> VOI extraction
+Here we provided workflow related scripts `seg_for_mask.py`, `VOI_extraction.py` to ensure reproducibility.
+
+Comprehensive flowchart can be referred: 
+![image]([https://github.com/MaiEmily/map/blob/master/public/image/flowchart_v0411.png](https://github.com/Hoyant-Su/Multi-phase_LT_Benchmark/blob/main/flowchart_v0411.png))
+
+
 
 
 ## Implementation
