@@ -53,7 +53,7 @@ Here we present a standardized data preprocessing workflow with executable scrip
 
 ### 📦 AI-driven Segmentation Workflow
 processing steps: Model mask generation -> Expert refinement -> VOI extraction
-Here we provided workflow related scripts `regis.py` `seg_for_mask.py`, `VOI_extraction.py` to ensure reproducibility.
+Here we provided workflow related scripts `regis.py`, `seg_for_mask.py`, `VOI_extraction.py` to ensure reproducibility.
 
 Comprehensive flowchart can be referred: 
 ![image](https://github.com/Hoyant-Su/Multi-phase_LT_Benchmark/blob/main/flowchart_v0411.png)
