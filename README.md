@@ -41,7 +41,7 @@ Label/
 The dataset, along with feature and label files with `.csv` and `.txt` suffixes, can be accessed at 👉 **[Dataset Repository]()**
 
 ## Data Preprocessing Pipeline
-We present a standardized data preprocessing workflow with executable scripts, comprising two core components:
+Here we present a standardized data preprocessing workflow with executable scripts, comprising two core components:
 
 ---
 ### 📦 Multi-phase Registration Protocol
@@ -57,7 +57,7 @@ processing steps: Model mask generation -> Expert refinement -> VOI extraction
 Here we provided workflow related scripts `seg_for_mask.py`, `VOI_extraction.py` to ensure reproducibility.
 
 Comprehensive flowchart can be referred: 
-![image]([https://github.com/MaiEmily/map/blob/master/public/image/flowchart_v0411.png](https://github.com/Hoyant-Su/Multi-phase_LT_Benchmark/blob/main/flowchart_v0411.png))
+![image](https://github.com/Hoyant-Su/Multi-phase_LT_Benchmark/blob/main/flowchart_v0411.png)
 
 
 
