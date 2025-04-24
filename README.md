@@ -43,12 +43,11 @@ The dataset, along with feature and label files with `.csv` and `.txt` suffixes,
 ## Data Preprocessing Pipeline
 Here we present a standardized data preprocessing workflow with executable scripts, comprising two core components:
 
----
 ### 📦 Multi-phase Registration Protocol
 ```text
  Input: NC, AP, DP phase scans  
  Process: Multiphase registration using ITKElastix (v0.20.0)
-             - Hierarchical B-spline deformation
+          Hierarchical B-spline deformation
  Output: PVP-phase aligned volumes
 ```
 
