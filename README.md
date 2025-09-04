@@ -91,8 +91,8 @@ bash /dl_classification/do_test_liver_K.sh
 The following institutions have contributed to the development of this project:
 
 <p align="center">
-  <img src="./assets/logos/PUMCH.jpg" alt="Peking Union Medical College Hospital" style="height:100px; margin:0 15px; object-fit: contain;">
+  <img src="./assets/logos/PUMCH.jpg" alt="Peking Union Medical College Hospital" style="height:120px; margin:0 15px; object-fit: contain;">
   <img src="/assets/logos/Fudan_logo.svg" alt="Fudan University" style="height:100px; margin:0 15px; object-fit: contain;"/>
   <img src="/assets/logos/SII_logo.svg" alt="Shanghai Innovation Institute" style="height:100px; margin:0 15px; object-fit: contain;"/>
-  <img src="/assets/logos/AI_LAB_logo.svg" alt="Shanghai Artificial Intelligence Laboratory" style="height:500px; margin:0 15px; object-fit: contain;"/>
+  <img src="/assets/logos/AI_LAB_logo.svg" alt="Shanghai Artificial Intelligence Laboratory" style="height:200px; margin:0 15px; object-fit: contain;"/>
 </p>
