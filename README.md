@@ -84,3 +84,15 @@ python radiomics_extract_classification/train_svm_K_fold.py
 # Deep Learning Baseline
 bash /dl_classification/do_test_liver_K.sh
 ```
+
+
+## Contributing Institutions
+
+The following institutions have contributed to the development of this project:
+
+<p align="center">
+  <img src="./assets/logos/PUMCH.jpg" alt="Peking Union Medical College Hospital" width="150"/>
+  <img src="/assets/logos/Fudan_logo.svg" alt="Fudan University" width="150"/>
+  <img src="/assets/logos/SII_logo.svg" alt="Shanghai Innovation Institute" width="150"/>
+  <img src="/assets/logos/AI_LAB_logo.svg" alt="Shanghai Artificial Intelligence Laboratory" width="150"/>
+</p>
