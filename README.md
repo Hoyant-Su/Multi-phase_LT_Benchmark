@@ -96,3 +96,16 @@ The following institutions have contributed to the development of this project:
   <img src="/assets/logos/SII_logo.svg" alt="Shanghai Innovation Institute" style="height:100px; margin:0 40px;"/>
   <img src="/assets/logos/AI_LAB_logo.svg" alt="Shanghai Artificial Intelligence Laboratory" style="height:100px; margin:0 40px;"/>
 </p>
+
+## Citation
+```
+@data{DVN/S3RW15_2025,
+author = {Haoyang Su},
+publisher = {Harvard Dataverse},
+title = {{MCT-LTDiag}},
+year = {2025},
+version = {V1},
+doi = {10.7910/DVN/S3RW15},
+url = {https://doi.org/10.7910/DVN/S3RW15}
+}
+```
