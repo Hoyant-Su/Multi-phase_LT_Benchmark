@@ -189,9 +189,9 @@ def process_case(case, image_dir, mask_dir, tumor_dir):
     return case, crop_tumor_patch(image_file, mask_file, tumor_dir, case)
 
 def prepare_tumor_data():
-    image_dir = "/inspire/hdd/project/continuinglearning/suhaoyang-240107100018/suhaoyang-240107100018/storage/tumor_radiomics/Data/final_volume"
-    mask_dir = "/inspire/hdd/project/continuinglearning/suhaoyang-240107100018/suhaoyang-240107100018/storage/tumor_radiomics/Data/final_mask"
-    tumor_dir = "/inspire/hdd/project/continuinglearning/suhaoyang-240107100018/suhaoyang-240107100018/storage/tumor_radiomics/Label/crop_tumor/total_supplement_rebuttal"
+    image_dir = ""
+    mask_dir = ""
+    tumor_dir = ""
 
     total_tumor_count = 0
     meta_tumor_count = 0

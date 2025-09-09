@@ -112,9 +112,6 @@ if __name__ == '__main__':
     data_dir = "" #fill in the blank
     mask_dir = "" #fill in the blank
 
-    data_dir = "/inspire/hdd/project/continuinglearning/suhaoyang-240107100018/suhaoyang-240107100018/storage/tumor_radiomics/Data/final_volume"
-    mask_dir = "/inspire/hdd/project/continuinglearning/suhaoyang-240107100018/suhaoyang-240107100018/storage/tumor_radiomics/Data/final_mask"
-
     label_value = 1
 
     case_folds = os.listdir(data_dir)
