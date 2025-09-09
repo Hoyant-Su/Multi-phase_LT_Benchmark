@@ -22,7 +22,6 @@ def main():
     moving_image_parent_folder = "" #provide NC, AP, DP phases file root
     result_dir = "" #fill in the blank
 
-
     for case in os.listdir(fixed_image_folder):
         fixed_pvp_path = os.path.join(fixed_image_folder, case)
         fixed_image_path = os.path.join(fixed_pvp_path, "pvp.nii.gz")

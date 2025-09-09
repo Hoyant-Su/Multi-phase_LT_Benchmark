@@ -29,7 +29,6 @@ class LiverDataSet(BaseDataset):
         self.ids = fp.readlines()
         fp.close()
         
-        #### 随机打乱一下ids
         random.shuffle(self.ids)
         
         self.images_fps = [os.path.join(images_dir, image_id.replace('\n', '') + '.png') for image_id in self.ids]

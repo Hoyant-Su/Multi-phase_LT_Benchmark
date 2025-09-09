@@ -6,7 +6,6 @@ import cv2
 import matplotlib.pyplot as plt
 
 import torch
-import numpy as np
 import segmentation_models_pytorch as smp
 import SimpleITK as sitk
 import scipy
@@ -113,13 +112,16 @@ if __name__ == '__main__':
     data_dir = "" #fill in the blank
     mask_dir = "" #fill in the blank
 
+    data_dir = "/inspire/hdd/project/continuinglearning/suhaoyang-240107100018/suhaoyang-240107100018/storage/tumor_radiomics/Data/final_volume"
+    mask_dir = "/inspire/hdd/project/continuinglearning/suhaoyang-240107100018/suhaoyang-240107100018/storage/tumor_radiomics/Data/final_mask"
+
     label_value = 1
 
     case_folds = os.listdir(data_dir)
     for fold in case_folds:
-
+        if '230218c2' not in fold: #230408a10, 230218c2
+            continue
         print ('start process ', fold)
-        
         case_dir = os.path.join(data_dir, fold)
         nii_files = os.listdir(case_dir)
 

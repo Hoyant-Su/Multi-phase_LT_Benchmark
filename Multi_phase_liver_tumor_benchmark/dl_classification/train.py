@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import argparse
 import time
 import yaml
@@ -56,7 +55,7 @@ except ImportError:
 
 from Multi_phase_liver_tumor_benchmark.dl_classification.metrics import *
 from Multi_phase_liver_tumor_benchmark.dl_classification.datasets.mp_liver_dataset import MultiPhaseLiverDataset, create_loader
-import models
+# import models
 
 
 torch.backends.cudnn.benchmark = True

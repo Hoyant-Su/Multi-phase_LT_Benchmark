@@ -18,6 +18,24 @@ conda env create -f environment.yml
 conda activate LT_benchmark
 ```
 
+
+## Dataset Download
+The dataset can be accessed at 👉 [Dataset Link](https://doi.org/10.7910/DVN/S3RW15)
+
+
+We provide a script to demonstrate how to **download and extract our dataset from Harvard Dataverse** using Google Drive.
+
+To use it:
+
+1. Obtain your API Token in Harvard Dataverse.
+2. Open Google Colab.
+3. Run the code blocks in `MCT_LTDiag_download.ipynb` in order.
+4. The notebook will automatically download all dataset files, extract `.tar` archives, and save them to your specified Google Drive folder.
+- NOTE for Windows users: `.tar` files can be extracted using 7-Zip or other archive tools.
+
+
+<!-- The dataset, along with feature and label files with `.csv` and `.txt` suffixes, can be accessed at 👉 **[Dataset Repository]()** -->
+
 ## Data Preparation
 🗂️ Prepare the data in the following structure:
 ```bash
@@ -45,7 +63,6 @@ Label/
       └── ... 
 ```
 
-The dataset, along with feature and label files with `.csv` and `.txt` suffixes, can be accessed at 👉 **[Dataset Repository]()**
 
 ## Data Preprocessing Pipeline
 Here we present a standardized data preprocessing workflow with executable scripts, comprising two core components:
