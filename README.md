@@ -5,6 +5,7 @@
 
 
 ## What's New
+- [2025-10] An updated version `2.0` of the MCT-LTDiag dataset has been released on Harvard Dataverse, including anonymized raw DICOM images and the following newly added metadata: tumor-level features (InExp_Volume_mm3, Avg_Volume_mm3, Max3D_Diameter_mm, arterial phase hyperenhancement, washout, capsule presence, delayed enhancement, nodular enhancement, central scar, rim enhancement, lobulated, calcification, indistinct border) and patient-level features (patient_age, cirrhosis status, history of viral hepatitis, history of chemotherapy).
 - [2025-09] Released the first version of our specialized liver tumor classification model **RU-Net**, trained on **MCT_LTDiag**.  👉 [Model Link](https://github.com/Hoyant-Su/RU-Net)
 - [2025-05] Officially released our liver tumor NIfTI dataset on the Harvard Dataverse platform.  👉 [Dataset Link](https://doi.org/10.7910/DVN/S3RW15)
 
@@ -81,8 +82,7 @@ processing steps: Model mask generation -> Expert refinement -> VOI extraction
 Here we provided workflow related scripts `regis.py`, `seg_for_mask.py`, `VOI_extraction.py` to ensure reproducibility.
 
 Comprehensive flowchart can be referred: 
-![image](https://github.com/Hoyant-Su/Multi-phase_LT_Benchmark/blob/main/flow_chart_v0425.png)
-
+![image](./assets/framework/flow_chart_v1015.png)
 
 ## Benchmark and Implementation
 We follow existing literature on liver tumor diagnosis to implement model architectures that have proven effective for differential diagnosis of liver tumors. Follow the instruction bellow to run the implementation codes.
