@@ -26,7 +26,7 @@ The dataset can be accessed at 👉 [Dataset Link](https://doi.org/10.7910/DVN/S
 ### Metadata Overview
 <p align="center">
   <img src="./assets/statistics/statistics_patient.png" width="50%" />
-  <img src="./assets/statistics/statistics_tumor.png" width="40%" />
+  <img src="./assets/statistics/statistics_tumor.png" width="50%" />
 </p>
 
 We provide a script to demonstrate how to **download and extract our dataset from Harvard Dataverse** using Google Drive.
