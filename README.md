@@ -46,16 +46,16 @@ To use it:
 🗂️ Prepare the data in the following structure:
 ```bash
 Data/
-  └── mask/
-    ├── tumor_type/
+  └── mask/ ## tumor mask folder
+    ├── tumor_type/ ## namely HCC/ICC/BCLM/CRLM/HH
       ├── case1/
         ├── mask_pvp.nii.gz
       ├── .../
     ├── .../
-  └── volume/
+  └── volume/ ## NIFTI image folder
     ├── tumor_type/
-      ├── case1/
-        ├── phase1.nii.gz
+      ├── case1/   ## case name (consistent with NIFTI folder name)
+        ├── phase1.nii.gz ## namely NC/AP/PVP/DP
         ├── phase2.nii.gz
         ├── ...
       ├── .../

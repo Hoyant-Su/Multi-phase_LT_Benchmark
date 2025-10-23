@@ -20,7 +20,6 @@ ID,type,patient_sex,patient_age,Cirrhosis status (Y/N),History of viral hepatiti
 230218b9,HCC,F,074Y,N,Y,N
 230218b10,HCC,F,065Y,Y,Y,N
 230218c1,HH,F,027Y,N,N,N
-230218c2,HH,F,056Y,N,N,N
 230218c3,HH,F,043Y,N,N,N
 230218c4,HH,F,059Y,N,N,N
 230218c5,HH,M,038Y,N,N,N
@@ -51,7 +50,6 @@ ID,type,patient_sex,patient_age,Cirrhosis status (Y/N),History of viral hepatiti
 230408a7,BCLM,F,63,N,NA(Outside-hospital surgery),Y
 230408a8,BCLM,F,62,N,N,Y
 230408a9,BCLM,F,45,N,N,Y
-230408a10,BCLM,F,65,N,N,Y
 230408a11,BCLM,F,38,N,N,Y
 230408a12,BCLM,F,48,N,N,Y
 230408a13,BCLM,F,50,N,NA(Outside-hospital surgery),Y
@@ -75,7 +73,6 @@ ID,type,patient_sex,patient_age,Cirrhosis status (Y/N),History of viral hepatiti
 230525c3,HH,F,039Y,N,N,N
 230525c4,HH,F,038Y,N,N,N
 230525c5,HH,F,043Y,N,N,N
-230525c6,HH,M,053Y,N,N,N
 230525c7,HH,M,063Y,N,N,N
 230525c8,HH,F,044Y,N,N,N
 230525c9,HH,F,049Y,N,N,N
@@ -289,7 +286,6 @@ ID,type,patient_sex,patient_age,Cirrhosis status (Y/N),History of viral hepatiti
 240229c39,HH,F,047Y,N,N,N
 240229c40,HH,F,059Y,N,N,N
 240229c41,HH,F,036Y,N,N,N
-240229c42,HH,F,045Y,N,Y,N
 240229c43,HH,F,052Y,N,N,N
 240229c44,HH,F,062Y,N,N,N
 240229c45,HH,F,043Y,N,N,N
@@ -338,7 +334,6 @@ ID,type,patient_sex,patient_age,Cirrhosis status (Y/N),History of viral hepatiti
 240504b32,HCC,F,078Y,N,N,N
 240504b33,HCC,M,066Y,N,N,N
 240504b34,HCC,M,052Y,N,Y,N
-240504b35,HCC,F,055Y,Y,Y,N
 240504b36,HCC,F,071Y,N,Y,N
 240504b37,HCC,M,061Y,Y,Y,Y(TACE)
 240504b38,HCC,M,075Y,Y,Y,N
@@ -390,7 +385,6 @@ ID,type,patient_sex,patient_age,Cirrhosis status (Y/N),History of viral hepatiti
 240504e34,CRLM,M,061Y,N,N,N
 240504e35,CRLM,F,068Y,N,N,Y
 240504e36,CRLM,M,061Y,N,N,Y
-240504e37,CRLM,F,066Y,N,N,Y
 240504e38,CRLM,F,072Y,N,N,N
 240504e39,CRLM,M,072Y,N,N,Y
 240504e40,CRLM,M,035Y,N,N,Y

@@ -1,4 +1,4 @@
-ID,InExp_Volume_mm3,Avg_Volume_mm3,Max3D_Diameter_mm,arterial phase hyperenhancement,washout,capsule presence,Delyed enhancement,Nodular enhancement,Central scar,Rim enhancement,Lobulated,Calcification,Indistinct border
+ID,InExp_Volume_mm3,Avg_Volume_mm3,Max3D_Diameter_mm,Arterial phase hyperenhancement,Washout,Capsule presence,Delayed enhancement,Peripheral modular enhancement,Central scar,Rim enhancement,Lobulated,Calcification,Indistinct border
 230218a1,12443.95,12443.95,35.25,N,N,N,N,N,N,N,N,N,N
 230218a2,1855.83,762.3833333333333,23.82,N,N,N,Y,N,N,Y,N,N,N
 230218a3,2108.69,2108.69,19.97,N,N,N,N,N,N,Y,N,N,N
